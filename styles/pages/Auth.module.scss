@@ -1,0 +1,35 @@
+.formWrapper {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .inputGroup {
+    margin-bottom: 1rem;
+  }
+
+.title {
+  font-size: 1.8rem;
+  text-align: right;
+  margin-bottom: 5.5rem;
+  color: #333;
+  }
+
+  p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 600px) {
+    padding: 1rem;
+
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    input {
+      font-size: 0.9rem;
+    }
+  }
+}

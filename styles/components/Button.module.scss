@@ -1,0 +1,19 @@
+.btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #0c6e66;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #10575c;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
